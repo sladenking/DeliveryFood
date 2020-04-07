@@ -35,7 +35,22 @@
   padding-left: 35px;
 }
 
+.buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding: 8px 16px;
   background: #FFFFFF;
   border: 1px solid #D9D9D9;
@@ -51,5 +66,12 @@
 
 .button-primary {
   background: #1890FF;
+  border: 1px solid #1890FF;
+  color: #fff;
+  margin-right: 10px;
+}
+
+.button-icon {
+  margin-right: 6px;
 }
 /*# sourceMappingURL=style.css.map */
