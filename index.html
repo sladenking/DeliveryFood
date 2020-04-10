@@ -7,6 +7,7 @@
     <title>Delivery Food - доставка еды на дом</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap&subset=cyrillic" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -21,7 +22,7 @@
                     <img src="img/index/user.svg" alt="user-icon" class="button-icon">
                     <span class="button-text">Войти</span>
                 </button>
-                <button class="button">
+                <button class="button" id="card-button">
                     <img src="img/index/shopping-cart.svg" alt="shopping-cart-icon" class="button-icon">
                     <span class="button-text">Корзина</span>
                 </button>
@@ -177,6 +178,74 @@
             </div>
         </div>
     </footer>
+    <div class="modal">
+        <div class="modal-dialog">
+            <div class="modal-header">
+                <h3 class="modal-title">Корзина</h3>
+                <button class="modal-close">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="modal-body-row">
+                    <span class="modal-body-row-name">Ролл угорь стандарт</span>
+                    <strong class="modal-body-row-price">250 ₽</strong>
+                    <div class="modal-body-row-counter">
+                        <button class="modal-body-row-counter-btn">-</button>
+                        <span class="modal-body-row-counter-value">1</span>
+                        <button class="modal-body-row-counter-btn">+</button>
+                    </div>
+                </div>
+                <!-- /.modal-body-row -->
+                <div class="modal-body-row">
+                    <span class="modal-body-row-name">Ролл угорь стандарт</span>
+                    <strong class="modal-body-row-price">250 ₽</strong>
+                    <div class="modal-body-row-counter">
+                        <button class="modal-body-row-counter-btn">-</button>
+                        <span class="modal-body-row-counter-value">1</span>
+                        <button class="modal-body-row-counter-btn">+</button>
+                    </div>
+                </div>
+                <!-- /.modal-body-row -->
+                <div class="modal-body-row">
+                    <span class="modal-body-row-name">Ролл угорь стандарт</span>
+                    <strong class="modal-body-row-price">250 ₽</strong>
+                    <div class="modal-body-row-counter">
+                        <button class="modal-body-row-counter-btn">-</button>
+                        <span class="modal-body-row-counter-value">1</span>
+                        <button class="modal-body-row-counter-btn">+</button>
+                    </div>
+                </div>
+                <!-- /.modal-body-row -->
+                <div class="modal-body-row">
+                    <span class="modal-body-row-name">Ролл угорь стандарт</span>
+                    <strong class="modal-body-row-price">250 ₽</strong>
+                    <div class="modal-body-row-counter">
+                        <button class="modal-body-row-counter-btn">-</button>
+                        <span class="modal-body-row-counter-value">1</span>
+                        <button class="modal-body-row-counter-btn">+</button>
+                    </div>
+                </div>
+                <!-- /.modal-body-row -->
+                <div class="modal-body-row">
+                    <span class="modal-body-row-name">Ролл угорь стандарт</span>
+                    <strong class="modal-body-row-price">250 ₽</strong>
+                    <div class="modal-body-row-counter">
+                        <button class="modal-body-row-counter-btn">-</button>
+                        <span class="modal-body-row-counter-value">1</span>
+                        <button class="modal-body-row-counter-btn">+</button>
+                    </div>
+                </div>
+                <!-- /.modal-body-row -->
+            </div>
+            <div class="modal-footer">
+                <span class="modal-footer-price">1250 ₽</span>
+                <div class="modal-footer-buttons">
+                    <button class="button button-primary">Оформить заказ</button>
+                    <button class="button">Отмена</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script/script.js"></script>
 </body>
 
 </html>

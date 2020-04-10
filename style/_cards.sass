@@ -1,0 +1,111 @@
+.section
+    &-heading
+        display: flex
+        align-items: center
+        margin-bottom: 44px
+    &-title
+        font-style: normal
+        font-weight: bold
+        font-size: 36px
+        line-height: 42px
+        color: #000000
+        margin: 0
+        margin-right: 30px
+
+.cards
+    display: flex
+    align-items: flex-start
+    justify-content: space-between
+    flex-wrap: wrap
+
+.card
+    background: #FFFFFF
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.05)
+    border-radius: 7px
+    overflow: hidden
+    margin-bottom: 30px
+    flex-basis: 32%
+    text-decoration: none
+    &-image
+        height: 100%
+        object-fit: cover
+    &-text
+        padding-top: 20px
+        padding-bottom: 35px
+        padding-left: 23px
+        padding-right: 23px
+    &-heading
+        display: flex
+        align-items: center
+        justify-content: space-between
+    &-title
+        font-style: normal
+        font-weight: bold
+        font-size: 24px
+        line-height: 32px
+        color: #000000
+        margin: 0
+        &-reg
+            font-weight: 400
+    &-tag
+        font-style: normal
+        font-weight: normal
+        font-size: 12px
+        line-height: 20px
+        display: flex
+        align-items: center
+        color: #FFFFFF
+        background: #262626
+        border-radius: 2px
+        padding: 1px 8px
+    &-info
+        display: flex
+        align-items: center
+        flex-wrap: wrap
+    &-buttons
+        display: flex
+        align-items: center
+        margin-top: 24px
+    &-price-bold
+        font-style: normal
+        font-weight: bold
+        font-size: 20px
+        line-height: 32px
+        margin-left: 30px
+
+.rating
+    padding-right: 26px
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 32px;
+    color: #FFC107;
+.price, .category
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;
+    color: #8C8C8C;
+.category
+    text-overflow: ellipsis
+    overflow: hidden
+    white-space: nowrap
+    max-width: 150px
+.price
+    margin-right: 10px
+    &::after
+        content: ""
+        width: 5px
+        height: 5px
+        background-color: #8C8C8C
+        display: inline-block
+        vertical-align: middle
+        border-radius: 10px
+        margin-left: 10px
+.ingredients
+    font-style: normal
+    font-weight: normal
+    font-size: 18px
+    line-height: 21px
+    margin-top: 10px
+    color: #8C8C8C
