@@ -165,16 +165,20 @@ window.addEventListener('DOMContentLoaded', () => {
 
 		const openGoods = event => {
 			const target = event.target;
+			const login = localStorage.getItem('UserName'),
+				modalAuth =  document.querySelector('.modal-auth');
 
 			const restaurant = target.closest('.card-restaurant');
 
-			if (restaurant) {
+			if (restaurant && login) {
 				cardsMenu.textContent = '';
 				containerPromo.classList.add('hide');
 				restaurants.classList.add('hide');
 				menu.classList.remove('hide');
 
 				createCardGood();
+			} else {
+				modalAuth.classList.toggle('is-open');
 			}
 
 		};

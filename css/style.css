@@ -160,8 +160,7 @@ button {
     margin-left: auto;
     font-weight: bold;
     font-size: 18px;
-    width: 200px;
-    text-align: right;
+    max-width: 200px;
     overflow: hidden;
 }
 
