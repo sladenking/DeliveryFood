@@ -705,6 +705,15 @@ button {
     .promo-text {
         margin-top: 0;
     }
+
+    .modal-dialog {
+      padding: 20px;
+    }
+    
+    .modal-dialog-auth {
+      width: 100;
+      position: relative;
+    }
 }
 
 @media (max-width: 578px) {
